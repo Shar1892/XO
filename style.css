@@ -1,0 +1,65 @@
+.container {
+	margin: 20px auto;
+	width: 150px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.sell {
+	height: 48px;
+	width: 48px;
+	background-color: #0066CC;
+	border:1px solid #ddd;
+	cursor: pointer;
+}
+
+.sellCross {
+	text-align: center;
+	height: 48px;
+	width: 48px;
+	background-color: #00CC33;
+	border:1px solid #ddd;
+	line-height: 48px;
+}
+
+.sellZero {
+	text-align: center;
+	height: 48px;
+	width: 48px;
+	background-color: #FFFF33;
+	border:1px solid #ddd;
+	line-height: 48px;
+}
+
+.sellWinner {
+	text-align: center;
+	height: 48px;
+	width: 48px;
+	background-color: #FF0000;
+	border:1px solid #ddd;
+	line-height: 48px;
+}
+
+.info {
+	text-align: center;
+	display: none;
+	margin-top: 5px;
+}
+
+.choiceBlock {
+	text-align: center;
+}
+
+.startButtonBlock {
+	text-align: center;
+	display: none;
+	margin-top: 5px;
+}
+
+.startButton {
+	cursor: pointer;
+}
+
+input {
+	cursor: pointer;
+}

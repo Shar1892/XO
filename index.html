@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div id="container" class="container"></div>
+	
+	<div id="choiceBlock" class="choiceBlock">
+		
+		<div>Выберите кем играть:</div>
+		
+		<div>
+			<input id="crossChoice" name="choice" type="radio" value="1" onchange="makeChoice()"> Крестики
+		</div>
+		
+		<div>
+			<input id="zeroChoice" name="choice" type="radio" value="2" onchange="makeChoice()"> Нолики
+		</div>
+		
+	</div>
+	
+	<div  id="startButtonBlock" class="startButtonBlock">
+		<button id="startButton" class="startButton" onclick="start()">Начать!</button>
+	</div>
+	
+	<div id="info" class="info"></div>
+	
+	<script src="script.js"></script>
+
+</body>
+</html>
